@@ -106,6 +106,6 @@
   <project path="system/media" name="android_system_media" groups="pdk" remote="AndroidRul3z" revision="android-7.1" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="omnirom" revision="android-7.1" />
   <project path="system/vold" name="android_system_vold" remote="omnirom" revision="android-7.1" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="omnirom" revision="android-7.1" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="AndroidRul3z" revision="android-7.1" />
 
 </manifest>
