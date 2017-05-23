@@ -20,7 +20,7 @@
   <project path="build" name="android_build" remote="AndroidRul3z" revision="android-7.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-
+  <project path="build/kati" name="android_build_kati" remote="AndroidRul3z" revision="android-7.1" groups="pdk,tradefed" />
   <project path="art" name="android_art" remote="AndroidRul3z" revision="android-7.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="AndroidRul3z" revision="android-7.1" groups="pdk" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
@@ -58,22 +58,24 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="omnirom" revision="android-7.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="AndroidRul3z" revision="android-7.1" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-7.1" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="AndroidRul3z" revision="android-7.1" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="omnirom" revision="android-7.1" />
 
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="omnirom" revision="android-7.1" groups="broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="AndroidRul3z" revision="android-7.1" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="android_hardware_invensense" remote="omnirom" revision="android-7.1" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-7.1" groups="pdk" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-7.1" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-7.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-7.1" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-7.1" groups="qcom" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-7.1" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="AndroidRul3z" revision="android-7.1" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="AndroidRul3z" revision="android-7.1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="AndroidRul3z" revision="android-7.1" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="AndroidRul3z" revision="android-7.1" groups="qcom" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="AndroidRul3z" revision="android-7.1" />
+  <project path="hardware/qcom/msm8x74" name="android_hardware_qcom_msm8x74" remote="AndroidRul3z" revision="android-7.1" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-7.1" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-7.1" groups="qcom_wlan" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="AndroidRul3z" revision="android-7.1" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-7.1" groups="pdk" />
 
   <project path="libcore" name="android_libcore" remote="omnirom" revision="android-7.1" groups="pdk" />
