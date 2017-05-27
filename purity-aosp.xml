@@ -27,6 +27,7 @@
   <project path="development" name="android_development" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
 
   <project path="external/boringssl" name="android_external_boringssl" remote="AndroidRul3z" revision="android-7.1" groups="pdk" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="AndroidRul3z" revision="android-7.1" groups="pdk" />
   <project path="external/clang" name="android_external_clang" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/doclava" name="android_external_doclava" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="omnirom" revision="android-7.1" groups="pdk" />
@@ -42,7 +43,7 @@
   <project path="external/llvm" name="android_external_llvm" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/lz4" name="android_external_lz4" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/skia" name="android_external_skia" remote="AndroidRul3z" revision="android-7.1" groups="pdk,qcom_msm8x26" />
-  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="omnirom" revision="android-7.1" groups="pdk" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="AndroidRul3z" revision="android-7.1" groups="pdk" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/toybox" name="android_external_toybox" remote="omnirom" revision="android-7.1" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="AndroidRul3z" revision="android-7.1" groups="pdk-cw-fs,pdk-fs"/>
